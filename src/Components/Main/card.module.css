@@ -1,0 +1,174 @@
+.container {
+    margin: 40px;
+    background: rgba(54, 65, 106, 0.15);
+    border-radius: 4px;
+}
+
+.details {
+    width: 80%;
+    margin: 10px 20px;
+}
+
+.head {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.3962px;
+    line-height: 147.2%;
+    color: #36416A;
+}
+
+.para {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.2406px;
+    line-height: 147.2%;
+    color: #000000;
+}
+
+.category {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.4651px;
+    line-height: 147.2%;
+    background: #C0CEFF;
+    border-radius: 20.9396px;
+    padding: 5px 10px;
+    margin: 4px;
+    flex-wrap: wrap;
+}
+
+.category_conatiner {
+    display: flex;
+    min-width: 30%;
+}
+
+.upvote {
+    margin: 10px 0;
+    background: #C7CBD6;
+    border-radius: 15.9836px;
+    text-align: center;
+    height: 45px;
+    padding-top: 5px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+}
+
+.select_image {
+    width: 10px;
+}
+
+.commentCount {
+    margin: 30px 0 0 0;
+    font-weight: 500;
+}
+
+textarea {
+    background: #FFFFFF;
+    border: 3px solid #C7CBD6;
+    border-radius: 43px;
+    width: 90%;
+    height: 30px;
+    resize: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+textarea::placeholder {
+    color: #ABABAB;
+}
+
+.edit_button {
+    margin-left: auto;
+}
+
+.edit_button button {
+    border: none;
+    background: #36416A;
+    border-radius: 29px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.comment_contianer {
+    margin: 10px;
+}
+
+.send_button {
+    border: none;
+    background: none;
+    width: 1px;
+    display: inline;
+    position: relative;
+    bottom: 13px;
+    right: 40px;
+}
+
+.send_image {
+    width: 30px;
+    cursor: pointer;
+}
+
+.commentButton {
+    cursor: pointer;
+    color: #ABABAB;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.comment_image {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    margin: 0 5px;
+}
+
+.comments {
+    min-height: 50px;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 90%;
+    overflow-wrap: break-word;
+}
+
+.comments::-webkit-scrollbar {
+    width: 14px;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+.comments::-webkit-scrollbar-thumb {
+    background: #C7CBD6;
+    border-radius: 25px;
+}
+
+.comments ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #36416A;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li {
+    color: #999999;
+    font-weight: 400;
+}
